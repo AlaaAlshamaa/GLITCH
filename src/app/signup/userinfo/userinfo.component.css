@@ -1,0 +1,134 @@
+.box {
+    width: 1000px;
+    padding: 10px;
+    background: #cdcbcb;
+    border-radius: 20px;
+    max-height: 1400px;
+   
+  }
+
+  .box img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+  }
+
+  .image1 {
+    position: absolute;
+    top: 170px;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 50px;
+  }
+
+  .top-left {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-family: 'Acumin Variable Concept';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #CC051C;
+  }
+
+  form {
+    height: 520px;
+    width: 500px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -200px;
+   left: 26%;
+    font-family: 'Acumin Variable Concept';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+pointer-events: auto;
+
+
+
+}
+
+
+form  input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  border: 1px solid silver;
+  background: rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #132452;
+    top:200px;
+}
+
+h1{
+    position: relative;
+    top: 150px;
+   
+    font-size: 24px;
+    font-weight: 500;
+    color: #132452;
+
+}
+
+.btn2 {
+    position: relative;
+    top: -400px;
+    font-family: 'Acumin Variable Concept';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #132452;
+    border: 0px ;
+    border-radius: 20px;
+    width: 260px;
+    height: 60px;
+
+    margin-bottom: 80px;
+}
+
+.row {
+    position: relative;
+    top: -40px;
+ 
+ 
+}
+
+.row a{
+    font-family: 'Acumin Variable Concept';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+
+    align-items: start;
+    color: #FFFFFF;
+    text-decoration: none;
+width: 50%;
+   
+}
+
+
+input[type="text tel"]:focus {
+    box-shadow: 0 0 4px 0 rgba(48, 46, 46, 0.8);;
+    outline: none;
+}

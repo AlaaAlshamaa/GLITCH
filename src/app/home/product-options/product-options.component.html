@@ -1,0 +1,58 @@
+
+
+<div class="container " align="center">
+    <div class=" box">
+<div style="overflow:auto">
+    <div class="search " align="center">
+      <form>
+        <input type="search" placeholder="What would you like to have in your design?.." align="center" >
+        <button class="btn0" type="submit">Search</button>
+      </form>
+       <p> </p>
+      </div>
+
+    <div  id="myDIV" class = "FB_type">
+    <div class=" FB ">
+      <a href="#">Front</a>
+      |
+      <a href="#">Back</a>
+    </div>
+    <button class="btn">Shirt</button>
+    <button class="btn active">T-Shirt</button>
+    <button class="btn" (click)='callfun()'>Hoodie</button>
+    <button class="btn">Oversized</button>
+</div>
+
+    <div class="main">
+        <div class="container">
+              <img src="../../../assets/images/men white front.png">
+              <p style=" color: #CC051C;">Clear</p>
+              <button class="btn2">Add to cart</button>
+            </div>
+         </div>
+  
+    <div class="right">
+      <div class= "row">
+      <button class="btn6" type="submit"
+       style= "background:transparent url(../../../assets/icons/2.svg)
+         no-repeat center" 
+         (click)="onSelect('edit')">
+          </button>
+      <a href="#" (click)="onSelect('edit')">Edit</a>
+    </div>
+    </div>
+        <button class="btn3">Color  <br> palette</button>
+        <p>Size :</p>
+        <button class="btn4"> S</button>
+        <button class="btn4"> M</button>
+        <button class="btn4 active"> L</button>
+        <button class="btn4"> XL</button>
+        <button class="btn4"> XXL</button>
+        <button class="btn5" type="submit" (click)="onSelect('place')"> Customize Shirt </button>
+        <button class="btn5"> Generate Design</button>
+
+  </div>
+</div>  
+</div>
+
+

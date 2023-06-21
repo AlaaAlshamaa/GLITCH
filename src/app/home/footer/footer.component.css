@@ -1,0 +1,44 @@
+
+
+.row{
+ 
+    width: 1300px;
+      align-items: center;
+   margin-left: 100px; 
+   padding: 40px; 
+}
+
+a {
+    font-family: Acumin Variable Concept;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    text-decoration: none;
+ }
+
+ h1{
+    position: relative;
+    top: 50px;
+
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Acumin Variable Concept;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+
+
+}
+
+.btn6  {
+      
+    border: 0px solid transparent; 
+    cursor: pointer;
+    width: 220px;
+    height: 220px;
+}
+
+  
