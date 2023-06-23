@@ -12,6 +12,9 @@ import { ChoiceComponent } from './place/choice/choice.component';
 import { EditComponent } from './edit/edit.component';
 import { OptionComponent } from './edit/option/option.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { ShoppingComponent } from './shopping/shopping.component';
+import { MycartComponent } from './shopping/mycart/mycart.component';
+import { ItemComponent } from './shopping/item/item.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { FooterComponent } from './home/footer/footer.component';
     ChoiceComponent,
     EditComponent,
     OptionComponent,
-    FooterComponent
+    FooterComponent,
+    ShoppingComponent,
+    MycartComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,

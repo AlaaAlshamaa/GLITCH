@@ -1,15 +1,14 @@
-import { Component , OnInit} from '@angular/core';
+import { Component , OnInit } from '@angular/core';
 declare var window: any;
 
-
-
 @Component({
-  selector: 'app-place',
-  templateUrl: './place.component.html',
-  styleUrls: ['./place.component.css']
+  selector: 'app-shopping',
+  templateUrl: './shopping.component.html',
+  styleUrls: ['./shopping.component.css']
 })
-export class PlaceComponent {
+export class ShoppingComponent {
   formModal: any;
+ 
   constructor() {}
  
   ngOnInit(): void {
@@ -27,8 +26,4 @@ export class PlaceComponent {
     this.formModal.hide();
     
   }
-
- 
-  
 }
-
