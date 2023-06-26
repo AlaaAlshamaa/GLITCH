@@ -2,9 +2,9 @@
 <div class="">
 <div class="d-flex justify-content-around align-items-center">
   <h3 class="fw-normal  ">G L I T C H</h3>
-  <div class= "d-flex justify-content-center align-items-center">
+  <div class= "d-flex justify-content-center align-items-center ">
     <a href="#" >Account</a> 
-    <a href="#" (click)="onSelect('shopping')">  |    Cart</a>
+    <a href="#" (click)="onSelect('shopping')">  | &nbsp; Cart</a>
     <img  class=" col-lg-8"  src="../../../assets/icons/22.svg" class="myicon">
   </div>
   </div>
@@ -28,17 +28,17 @@
       |
       <a href="#">Back</a>
     </div>
-    <button class="btn">Shirt</button>
-    <button class="btn active">T-Shirt</button>
-    <button class="btn" (click)='callfun()'>Hoodie</button>
-    <button class="btn">Oversized</button>
+    <button class="btn" value="Shirt">Shirt</button>
+    <button class="btn active" value="T-Shirt">T-Shirt</button>
+    <button class="btn" (click)='callfun()' value="Hoodie">Hoodie</button>
+    <button class="btn" value="Oversized">Oversized</button>
 </div>
 
     <div class="main">
         <div class="container">
-              <img src="../../../assets/images/men white front.png">
+              <img src="../../../assets/images/men white front.png" class="Shirt">
               <p style=" color: #CC051C;">Clear</p>
-              <button class="btn2">Add to cart</button>
+             
             </div>
          </div>
   
@@ -54,14 +54,14 @@
     </div>
         <button class="btn3">Color  <br> palette</button>
         <p>Size :</p>
-        <button class="btn4"> S</button>
-        <button class="btn4"> M</button>
-        <button class="btn4 active"> L</button>
-        <button class="btn4"> XL</button>
-        <button class="btn4"> XXL</button>
+        <button class="btn4" value="S"> S</button>
+        <button class="btn4" value="M"> M</button>
+        <button class="btn4 active" value="L"> L</button>
+        <button class="btn4" value="XL"> XL</button>
+        <button class="btn4" value="XXL"> XXL</button>
         <button class="btn5" type="submit" (click)="onSelect('place')"> Customize Shirt </button>
         <button class="btn5" type="submit" > Generate Design</button>
-
+        <button class="btn2">Add to cart</button>
   </div>
 </div>  
 </div>

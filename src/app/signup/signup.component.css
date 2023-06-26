@@ -1,7 +1,19 @@
 
 
- .modal-container {
+.modal-container {
     position: relative;
     top: 5%;
     right: 13%;
  }
+
+@media (max-width:450px) {
+   .modal-container {
+      right: 118px;
+      top: -270px;
+   }
+
+   .myinfo{
+      scale: 0.35;
+   }
+
+   }

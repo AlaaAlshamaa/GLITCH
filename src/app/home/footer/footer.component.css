@@ -2,10 +2,9 @@
 
 .row{
  
-    width: 1300px;
       align-items: center;
-   margin-left: 100px; 
-   padding: 40px; 
+  
+   padding: 30px; 
 }
 
 a {
@@ -37,8 +36,18 @@ line-height: 29px;
       
     border: 0px solid transparent; 
     cursor: pointer;
-    width: 220px;
-    height: 220px;
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    align-items: center;
 }
 
-  
+@media (max-width:450px) {
+    .btn6  {
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 15px;
+    }
+}

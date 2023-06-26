@@ -6,12 +6,22 @@ crossorigin="anonymous"></script>
 
 <nav class=" navbar navbar-expand-lg ">
     <a class="col-md-8 navbar-brand ">GLITCH</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button"
+    data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)='callfun2();'
+      style="color:#fff;"
+      >
+      <button class=" navbar-toggler-icon btn6" type="submit"
+      style= "background:transparent url(../../../assets/icons/24.svg)
+        no-repeat center"></button>
+ 
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <div class="  text-right">
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo02" >
+        <div class="  text-center">
         <button class=" btn btn-outline-light " type="submit" (click)="onSelect('Sign-up')">Log-in</button>
         <button class=" btn btn-outline-light " type="submit" (click)="onSelect('Sign-up')">Sign-up</button>
         </div>
@@ -19,10 +29,10 @@ crossorigin="anonymous"></script>
   </nav>
 
   <div class="container ">
-    <div class="col-lg-6 col-sm-4">
+    <div class="  col-md-10  col-10">
       <img src="../../../assets/images/break.svg">
     </div>
-    <div >
+    <div class="  col-md-10  col-10">
       <table >
         <tbody >
           <td>

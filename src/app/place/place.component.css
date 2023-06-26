@@ -2,5 +2,14 @@
 .modal-container {
     position: relative;
     top: 5%;
-    right: 25%;
+    right: 32%;
  }
+
+ 
+ @media (max-width:450px) {
+
+    .modal-container {
+        right:110px;
+     }
+
+    }

@@ -198,4 +198,10 @@ text-align: center;
     
   }
 
-  
+  @media (max-width:450px) {
+     
+  .btn7  {
+
+    right: -900px;
+}
+  }

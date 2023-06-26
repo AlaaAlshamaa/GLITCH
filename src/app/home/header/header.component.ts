@@ -1,5 +1,7 @@
 import { Component , EventEmitter, Output  } from '@angular/core';
 
+declare const myFun2:any;
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -10,5 +12,9 @@ export class HeaderComponent {
 
   onSelect(feature: string) {
     this.featureSelected.emit(feature);
+}
+
+callfun2(){
+  myFun2();
 }
 }

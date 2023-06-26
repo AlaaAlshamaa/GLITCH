@@ -12,3 +12,13 @@ function myFun (){
       this.className += " active";
       })}
 };
+
+function myFun2 (){
+  $(document).on('click',function(e) {
+      $(this).collapse('hide');
+ } );
+ 
+ $("button.navbar-toggle").click(function (e) {
+   $("#main-navbar").collapse('hide');
+   $("#main-navbar").removeClass("in"); });
+ }

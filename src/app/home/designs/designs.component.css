@@ -1,118 +1,4 @@
-*{
-    font-family: 'Acumin Variable Concept';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    }
 
-    .container{
-        padding-left: 100px;
-        background-color: none;
-    }
-    
-    .float-container  {
-        align-items: center; 
-        column-gap: 5px;
-        width: 180px;
-        max-width: 1000px;
-        font-size: 24px;
-        padding: 20px;
-        display: flex;
-     
-       
-      }
-
-      .float-child {
-      
-        float: left;
-        padding: 200px;
-        width: 180px;
-        margin: 50px;
-    }  
-    
-      .box img  {
-        max-width: 300px;
-        max-height: 400px;
-        top: 50px;
-        position: relative;
-     }
-    
-     .container p{
-        font-family: 'Acumin Variable Concept';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 38px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    
-      }
-
-      .container h1{
-        font-family: 'Acumin Variable Concept';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
-        align-items: center;   
-        color: #CC051C;
-     
-      }
-
-
-.box {
-    width: 450px;
-    height: 580px;
-    padding: 10px;
-    background: linear-gradient(
-        167.68deg, #132452 23.17%,
-         rgb(67 84 129 / 73%) 96.19%,
-          rgb(209 216 234 / 0%) 113.48%);
-    border-radius: 50px;
-  }
-
-  @media (max-width:450px) {
-   
-    .box  {
-        width: 320px;
-        background-color: linear-gradient(
-            167.68deg, #132452 23.17%,
-             rgba(29, 49, 104, 0.73402) 96.19%,
-              rgba(19, 36, 82, 0) 113.48%);;
-    }
-}
-
-.card-title{
-    position: absolute;
-}
-
-.card-title2{
-    width: 20%;
-    color: red;
-    
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
-
-}
-
-.card {
-    --bs-card-bg: }
-
-button[ type="submit" ]{
-    overflow: hidden;   
-    padding-top: 150px;
-    margin: 0;
-    border: 1px solid transparent;
-    border-radius: inherit;
-    cursor: pointer;
-    opacity: 0.7;
-    position: absolute;
-  }
-
-  button[type="submit"]:hover {
-    opacity: 1;
-  }
 
 h2{
     font-family: 'Acumin Variable Concept';
@@ -127,4 +13,37 @@ color: #FFFFFF;
 .ourdesigns{
     padding-left: 200px;
     background-color: none;
+}
+
+.container2{
+  padding-left: 220px;
+  background-color: none;
+}
+
+.line{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@media (max-width:450px) {
+.my-card{
+scale: 0.7;
+}
+
+.container2{
+  padding-left: 3px;
+  margin-top: -80%;
+  margin-bottom: -60%;
+}
+
+h2{
+font-size: 36px;
+line-height: 40px;
+}
+
+.line{
+  scale: 0.7;
+}
+
 }
