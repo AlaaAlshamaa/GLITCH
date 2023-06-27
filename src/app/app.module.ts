@@ -16,6 +16,9 @@ import { ShoppingComponent } from './shopping/shopping.component';
 import { MycartComponent } from './shopping/mycart/mycart.component';
 import { ItemComponent } from './shopping/item/item.component';
 import { CardComponent } from './home/designs/card/card.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -37,7 +40,9 @@ import { CardComponent } from './home/designs/card/card.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

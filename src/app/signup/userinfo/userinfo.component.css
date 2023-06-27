@@ -88,8 +88,8 @@ h1{
 }
 
 .btn2 {
-    position: relative;
-    top: -400px;
+    position: fixed;
+   
     font-family: 'Acumin Variable Concept';
     font-style: normal;
     font-weight: 700;
@@ -104,6 +104,10 @@ h1{
     height: 60px;
 
     margin-bottom: 80px;
+    top: 600px;
+    left: 120px;
+    
+  
 }
 
 .row {

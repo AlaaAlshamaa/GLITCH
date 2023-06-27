@@ -1,4 +1,4 @@
-import { Component , OnInit } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 declare var window: any;
 
 @Component({
@@ -9,13 +9,13 @@ declare var window: any;
 export class SignupComponent  implements OnInit {
   formModal: any;
  
-  constructor() {}
  
   ngOnInit(): void {
     this.formModal = new window.bootstrap.Modal(
       document.getElementById('myModal')
     );
     this.formModal.show();
+ 
   }
 
   openFormModal() {
@@ -26,4 +26,6 @@ export class SignupComponent  implements OnInit {
     this.formModal.hide();
     
   }
+
+  
 }
