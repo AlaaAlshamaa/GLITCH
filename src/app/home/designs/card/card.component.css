@@ -108,6 +108,7 @@ button[ type="submit" ]{
     position: relative;
     max-width: 400px;
     max-height: 500px;
+  
   }
 
   .top-right {
@@ -144,7 +145,7 @@ button[ type="submit" ]{
     padding-left: 50px;
   }
 
-  .peice{
+  .price{
     position: absolute;
     padding-top:460px;
     padding-left: 50px;

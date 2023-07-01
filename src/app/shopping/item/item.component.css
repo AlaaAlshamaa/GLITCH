@@ -49,7 +49,16 @@ background: none;
 border: 0px solid transparent; 
 margin-left: 30px;
 margin-right: -20px;
+color: #132452;
+
 }
+
+.notallowed {
+    pointer-events: none;
+    cursor: not-allowed !important;
+    opacity: 0.5;
+  }
+
 
 .btn6  {
     overflow: hidden;   

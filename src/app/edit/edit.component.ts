@@ -1,4 +1,6 @@
 import { Component , OnInit} from '@angular/core';
+import { Router } from '@angular/router'; 
+
 declare var window: any;
 
 @Component({
@@ -8,7 +10,8 @@ declare var window: any;
 })
 export class EditComponent {
   formModal: any;
-  constructor() {}
+  constructor(    private router: Router,
+    ) {}
  
   ngOnInit(): void {
     this.formModal = new window.bootstrap.Modal(
@@ -25,4 +28,32 @@ export class EditComponent {
     this.formModal.hide();
     
   }
+
+  loadedFeature = '';
+  reload = "";
+
+  resolveAfter25Seconds(x) {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(x);
+      }, 25000);
+    });
+  }
+
+  async reloadFunction(x : string){
+    this.reload = x;
+     this.resolveAfter25Seconds(25).then(async () =>  {
+      console.log("reload");
+    //  this.refreshComponent();
+      //window.location.reload();
+            });
+    
+   
+  }
+
+  refreshComponent(){
+    this.router.navigate(['/edit'])
+ }
+
+  
 }

@@ -1,18 +1,22 @@
 
-
+    <div   *ngFor="let it of items; index as i">
+      
+      
     <div class=" box ">
-        <p class = "name">Music On-World Off</p>
-        <h1 class ="peice" >40,000 sp</h1>
-        <img src="../../../assets/icons/23.svg" align="center" class = "boxbg">
+        <p class = "name">{{items[i]["title"]}}</p>
+        <h1 class ="price" >{{items[i]["price"]}}</h1>
+        <img src="../../../assets/images/23.png" align="center" class = "boxbg">
         
             <button class="top-right"
              type="submit"  
              style= "background:transparent url(../../../assets/icons/5.svg)  no-repeat center" >
             </button>
-             <button  class ="bottom-right" 
-             type="submit"
+            <button  class ="bottom-right" 
+            type="submit"
             style= "background:transparent url(../../../assets/icons/8.svg)  no-repeat center" >
         </button>
         <img src="../../../assets/images/product 1.svg" align="center" class="card-img" alt="...">
+        <!-- <img src={{items[i]["front_image"]}} align="center" class="card-img" alt="..."> -->
 
     </div>
+</div>

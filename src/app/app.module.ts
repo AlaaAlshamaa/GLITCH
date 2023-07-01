@@ -17,6 +17,7 @@ import { MycartComponent } from './shopping/mycart/mycart.component';
 import { ItemComponent } from './shopping/item/item.component';
 import { CardComponent } from './home/designs/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -42,8 +43,12 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-  
+    RouterModule.forRoot([
+      {path: 'edit', component: EditComponent},
+    ]),
   ],
+  
+
   providers: [],
   bootstrap: [AppComponent]
 })

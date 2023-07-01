@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { User } from './user.model';
-import  { HttpClient } from '@angular/common/http';
+import  { HttpClient , HttpHeaders } from '@angular/common/http';
 
 
 
@@ -14,6 +14,7 @@ export class UserService {
   ];
   private getuserdata:any;
   private postuserdata:any;
+  auth_token = "1|oD7bO7sj85R5pffYLpot49W8d5Cu0L3ZCa7M9soM";
 
   constructor(private http: HttpClient ) { }
   getUser1() {
@@ -32,22 +33,20 @@ export class UserService {
   const address = this.users.at(-1).address;  
   const password = this.users.at(-1).password;  
   const password_confirmation = this.users.at(-1).password_confirmation
-  const body = new User(username , phone , instagram_url, address, password , password_confirmation );
-  console.log("ppppppoooooossssstttttt");
-  console.log(body);
+  
+  const header = new HttpHeaders({
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${this.auth_token}`,
+  });
+  
   const body2 = JSON.stringify({username: username, phone: phone ,instagram_url:instagram_url, address:address , password:password , password_confirmation:password_confirmation});
-  console.log("jjjjsssoooon");
-  console.log(body2); 
-
-  const req = this.http.post('http://138.68.137.41/api/auth/client/signup' ,body2 ).subscribe(data => {  
-          this.postuserdata = data;
-        
+  console.log("json ::::" + body2); 
+  const req = this.http.post('http://138.68.137.41/api/auth/client/signup' ,body2 , {headers:header}).subscribe(data => {  
+          this.postuserdata = data;  
+          console.log("ppoost user data");
+          console.log(this.postuserdata);
         });
-        
-        console.log("ppoost user data");
-        console.log(this.postuserdata);
-        
-
+       
   }
 
 

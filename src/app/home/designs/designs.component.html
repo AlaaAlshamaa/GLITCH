@@ -1,7 +1,8 @@
 
 
+
 <div class="container" align="center">
-    <h2 align="left" style="padding-left: 70px;" >Our designs :</h2>
+    <h2 align="left" style="padding-left: 70px;" >Our designs : </h2>
 <img src="../../../assets/icons/9.svg" align="center" class="line" >
 </div>
 <br>
@@ -9,10 +10,19 @@
 
 <div class="container2 ">
     <div class="my-card " >
-        <app-card ></app-card>
-        <app-card ></app-card>
-        <app-card ></app-card>
-        <app-card ></app-card>
+         <app-card  ></app-card>
+
+         <!-- ok -->
+        <app-card  [items]="allproduct"></app-card>
+        
+<!-- 
+        <div >
+
+         <app-card    *ngFor="let productsEl of allproduct; index as i" 
+        [item]="productsEl">
+        </app-card> 
+
+        </div> -->
+        
     </div>
-   
 </div>

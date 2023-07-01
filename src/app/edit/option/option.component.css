@@ -33,7 +33,7 @@
 
 .btn2 {
     position: relative;
-    top: 40px;
+    top: -12px;
     font-family: 'Acumin Variable Concept';
     font-style: normal;
     font-weight: 700;
@@ -46,8 +46,7 @@
     border-radius: 20px;
     width: 260px;
     height: 60px;
-
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 
@@ -89,6 +88,8 @@ h1{
     text-align: center;
     align-items: center;
   }
+
+
 
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
@@ -137,7 +138,7 @@ a {
 
   h2{
     position: relative;
-    top: 100px;
+    top: 130px;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -154,21 +155,20 @@ h3{
 }
 
 
-.box img{
+.card-img-top{
 
     border: 1.5px solid #CC051C;
     border-radius: 20px;
 }
 
-.box2 img{
-
+.img-size img {
  max-width: 50%;
  max-height: 50%;
 }
 
 .row2
 {
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 .btn61  {
@@ -188,6 +188,71 @@ h3{
   height: 50px;
 
 }
+
+.btn63  {
+  overflow: hidden;   
+  border: 0px solid transparent; 
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+
+}
+
+.p1{
+background:transparent url(../../../assets/images/p5.png)
+                no-repeat center ;
+                background-size: 200px;
+}
+
+.p2{
+  background:transparent url(../../../assets/images/p6.png)
+                  no-repeat center ;
+                  background-size: 200px;
+  }
+
+  .p3{
+    background:transparent url(../../../assets/images/p7.png)
+                    no-repeat center ;
+                    background-size: 200px;
+    }
+
+    .position3{
+      width: 124px;
+      height: 165px;
+      position: absolute;
+      top: 85px;
+      right: 105px;
+      object-fit: contain;
+      border: 0px;
+      
+    }
+
+    .position5{
+      width: 224px;
+      height: 203px;
+      position: absolute;
+      top: 101px;
+      right: 127px;
+      object-fit: contain;
+    }
+  
+    .position4{
+      width: 124px;
+      height: 165px;
+      position: absolute;
+      top: 336px;
+    right: 232px;
+      object-fit: contain;
+    }
+
+
+    .notallowed {
+      pointer-events: none;
+      cursor: not-allowed !important;
+      opacity: 0.5;
+    }
+
 
 input[type="input"] {
     height: 42px;
@@ -238,8 +303,8 @@ input[type="input"] {
 
      .row2
 {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 116px;
+    padding-bottom: 116px;
 }
 
 input[type="input"] {
@@ -256,6 +321,44 @@ margin-top: 10px;
 .btn62  {
   margin-top: -40px;
  }
+
+ .btn63  {
+
+  width: 100px;
+  height: 100px;
+}
+
+.p1{
+  background-size: 100px;
+}
+.p2{
+  background-size: 100px;
+}
+.p3{
+  background-size: 100px;
+}
+.position3{
+  width: 95px;
+  height: 157px;
+  top: 36px;
+  right: 92px;
+}
+
+.position5{
+  width: 167px;
+  height: 148px;
+  top: 56px;
+  right: -36px;
+  left: 73px;
+}
+
+.position4{
+  width: 95px;
+  height: 157px;
+  top: 220px;
+  right: 158px;
+  
+}
   }
 
   .bottomside{

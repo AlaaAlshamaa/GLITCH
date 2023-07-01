@@ -149,6 +149,9 @@ line-height: 29px;
     margin-top: 20px;
     margin-left: 20px;
 }
+.active    {
+  border: 5px double ;
+}
 
 .btn5 {
     font-family: 'Acumin Variable Concept';
@@ -186,6 +189,10 @@ margin-top: 30px;
 background: rgba(255, 255, 255);
 border-radius: 20px;
 border: 0;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+text-align: center; 
 }
 
 input[type="search"]::placeholder {
@@ -271,6 +278,12 @@ color: rgba(255, 255, 255, 0.9);
 
 }
 
+.notallowed {
+  pointer-events: none;
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
 @media (max-width:450px) {
   .box  {
     width: 320px;
@@ -292,6 +305,9 @@ color: rgba(255, 255, 255, 0.9);
     width: 230px;
   margin-left: 6px;
   margin-right: 3px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
   }
 
   input[type="search"]::placeholder {
