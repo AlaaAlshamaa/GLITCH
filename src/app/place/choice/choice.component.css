@@ -1,0 +1,139 @@
+.boxxx {
+    width: 1000px;
+    padding: 10px;
+    background: #cdcbcb;
+    border-radius: 20px;
+    column-gap: 5px;
+    width: 320%;
+    float: left;
+    position: relative;
+    pointer-events: auto;
+    
+  }
+
+  .container{
+    padding-left: 100px;
+    background-color: none;
+}
+
+
+  h1{
+    position: relative;
+    top: 50px;
+   
+    font-size: 24px;
+    font-weight: 500;
+    color: #132452;
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    position: relative;
+  }
+
+
+
+  .box img  {
+    max-width: 300px;
+    max-height: 400px;
+    top: 50px;
+ }
+ .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+  .float-child{
+    float: left;
+    padding-top: 80px;
+    padding-left: 200px;
+  }
+
+  input[type="radio"]{
+    height:35px;
+     width:35px;
+    padding-left: 10px;
+    border: 1px solid silver;
+    background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  cursor: pointer;
+  }
+
+  p{
+    
+font-family: 'Acumin Variable Concept';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+align-items: center;
+
+color: #FFFFFF;
+margin-top: -11px;
+margin-bottom: 11px;
+  }
+
+  .btn2 {
+    position: relative;
+    top: 40px;
+    font-family: 'Acumin Variable Concept';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #132452;
+    border: 0px ;
+    border-radius: 20px;
+    width: 260px;
+    height: 60px;
+
+    margin-bottom: 80px;
+}
+
+
+.notallowed {
+  pointer-events: none;
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+/* custom radio */
+
+@media (max-width:450px) {
+  .boxxx  {
+    width: 355px;
+  }
+
+  .box{
+    width: 160px;
+    height: 270px;
+  }
+
+  .float-child{
+    float: left;
+    padding-top: 30px;
+    padding-left: 12px;
+  }
+
+  input[type="radio"]{
+    height:20px;
+     width:20px;
+     padding-top: 20px;
+   }
+
+   p{
+    margin-top: -25px;
+    font-size: 18px;
+    margin-bottom: 11px;
+   }
+
+   .myradio{
+    margin-top: -10px;
+   }
+}
+

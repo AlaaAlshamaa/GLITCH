@@ -1,0 +1,76 @@
+
+
+
+<div class="container " align="center" >
+    <div class=" boxxx" align="center">
+        <h1  align="center">choose your preferred logo place ...</h1>
+       
+        <div class = "row">
+            <div class="leftside" align="center">
+                <button class="btn61 notallowed" type="submit" 
+                style= "background:transparent url(../../../assets/icons/12.svg)
+                no-repeat center" 
+               >
+                </button> 
+                <input class="notallowed" type="input"  placeholder="Add text ..." align="center" >
+
+
+            </div>
+            <div class="main " align="center">
+                <div class=" FB ">
+                    <a href="#">Front</a>
+                    |
+                    <a href="#">Back</a>
+                </div>
+                <div class="box">
+                    <img src="../../../assets/images/men white front.png" align="center" class="card-img-top" alt="...">
+                    <img *ngIf="loadedPosition === '3'" src={{imagegenerated}} class = " position3" >
+                    <img *ngIf="loadedPosition === '5'" src={{imagegenerated}}  class = " position5" >
+                    <img *ngIf="loadedPosition === '4'" src={{imagegenerated}}   class = " position4" >
+                
+                </div>
+            </div>
+            <div class="rightside" align="center">
+                <button  class="btn62 notallowed"  type="submit" 
+                style= "background:transparent url(../../../assets/icons/13.svg)
+                no-repeat center" 
+                >
+                </button>
+                <h3  align="center">This helps you move your design.</h3>
+
+            </div>
+        </div>
+
+        <div class = "bottomside">
+            <div class="row3">
+                <h2  align="center">Your final result</h2>
+                 <div *ngIf="loading" class="spinner-border text-danger" role="status">
+                       <span class="visually-hidden">{{loading}}</span>
+                      </div>
+
+            
+                </div>
+         <div class = "row2 row" align="center">
+       
+           
+            <div class=" box2 float-child">
+                <div class="column">
+                    <button class="btn63 p1 " value="3" (click)="onPosition('3')" type="submit"></button>                             
+                </div>
+            </div>
+            <div class=" box2 float-child">
+                <div class="column">
+                    <button class="btn63 p2 " value="5" (click)="onPosition('5')" type="submit"></button>   
+                </div>
+            </div>
+            <div class=" box2 float-child">
+                <div class="column">
+                    <button class="btn63 p3 " value="4" (click)="onPosition('4')" type="submit"></button>   
+                </div>
+            </div>
+        </div>
+            
+        <button class="btn2" align="center"  (click)="onsubmit(); onreload('m')" >submit</button>
+    </div>
+    </div>
+</div>

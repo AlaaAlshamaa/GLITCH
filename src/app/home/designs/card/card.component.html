@@ -1,0 +1,22 @@
+
+    <!-- <div   *ngFor="let it of items; index as i">
+       -->
+      
+    <div class=" box ">
+        <p class = "name">{{item.title}}</p>
+        <h1 class ="price" >{{item.price}}</h1>
+        <img src="../../../assets/images/23.png" align="center" class = "boxbg">
+        
+            <button class="top-right"
+             type="submit"  
+             style= "background:transparent url(../../../assets/icons/5.svg)  no-repeat center" >
+            </button>
+            <button  class ="bottom-right" 
+            type="submit"
+            style= "background:transparent url(../../../assets/icons/8.svg)  no-repeat center" 
+        (click) = "onaddtocart()"   >     </button>
+        <img src="../../../assets/images/product 1.svg" align="center" class="card-img" alt="...">
+        <!-- <img src={{items[i]["front_image"]}} align="center" class="card-img" alt="..."> -->
+
+    </div>
+

@@ -1,0 +1,24 @@
+
+.modal-container {
+    position: relative;
+    top: 5%;
+    right: 25%;
+ }
+
+ @media (max-width:450px) {
+    
+    .modal-container {
+        top: -270px;
+        right:132px;
+    }
+
+    .box  {
+      width: 355px;
+    }
+    
+    .mycart
+{
+    scale: 0.3;
+}
+}
+  

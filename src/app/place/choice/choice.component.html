@@ -1,0 +1,63 @@
+
+<div class="container " align="center">
+    <div class=" boxxx" >
+        <h1  align="center">choose your preferred logo place ...</h1>
+    <div class="choices ">
+        <div class=" box float-child col-lg-6">
+            <div class="column">
+                    <img src="../../../assets/images/p1.PNG" align="center" class="card-img-top" alt="...">
+            </div>
+            <br>
+          
+            <div class="col-lg-6 myradio" align="center">
+                <p>(default)</p>
+                <input type="radio" value="2" name="place"  (change)="positionvalue($event)">
+          
+        </div>
+        </div>
+
+        <div class=" box float-child col-lg-6">
+            <div class="column">
+                    <img src="../../../assets/images/p2.PNG" align="center" class="card-img-top" alt="...">
+            </div>
+            <br>
+           
+            <div class="col-lg-6 myradio" align="center">
+                <br>
+                <input type="radio" value="3" name="place"  (change)="positionvalue($event)" >
+            </div>
+        </div>
+
+        <div class=" box float-child col-lg-6">
+            <div class="col">
+                    <img src="../../../assets/images/p3.PNG" align="center" class="card-img-top" alt="...">
+            </div>
+            <br>
+           
+            <div class="col-lg-6  myradio" align="center">
+                <br>
+                <input type="radio" value="4" name="place" (change)="positionvalue($event)">
+            </div>
+        </div>
+
+        <div class=" box float-child col-lg-6">
+            <div class="col">
+                    <img src="../../../assets/images/p4.PNG" align="center" class="card-img-top" alt="...">
+            </div>
+            <br>
+            <div align="center" style="align-items: center;">
+            <div class="col-lg-6  myradio" align="center">
+                <br>
+                <input type="radio" value="6" name="place"  (change)="positionvalue($event)">
+            </div>
+        
+        </div>
+        
+
+        </div>
+
+        <button class="btn2" (click)="onsubmit()" [ngClass]="{notallowed: !position}">Submit</button>
+        
+        <!-- <button class="btn2" (click)="onsubmit()" [ngClass]="{notallowed: !product_id}">Send</button> -->
+    </div>
+</div>

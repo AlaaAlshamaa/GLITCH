@@ -1,0 +1,280 @@
+.box {
+    width: 1200px;
+    padding: 10px;
+    background: #cdcbcb;
+    border-radius: 20px;
+    max-height: 1400px;
+    pointer-events: auto;
+   
+  }
+
+
+.btn7  {
+    overflow: hidden;   
+    border: 0px solid transparent; 
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+    position: relative;
+    right: -100px;
+}
+
+a{
+    font-family: Acumin Variable Concept;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+color: rgba(19, 36, 82, 0.9);
+text-decoration: none;
+
+}
+
+button[type="submit"]:focus{
+  box-shadow: 0 0 0px 0 rgba(48, 46, 46, 0.8);;
+  outline: none;
+}
+
+
+
+
+
+
+.myicon  {
+    overflow: hidden;   
+    width: 8%;
+    height: 8%;
+    position: relative;
+    right: 230px;
+}
+.row{
+    align-items: center;
+    padding-top: 30px;
+}
+
+h1{
+   
+    font-family: Acumin Variable Concept;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  rgba(19, 36, 82, 1);
+    position: relative;
+    top: 7px;
+    
+
+}
+
+.btn2 {
+    position: relative;
+    font-family: 'Acumin Variable Concept';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #132452;
+    border: 0px ;
+    border-radius: 20px;
+    width: 260px;
+    height: 60px;
+    margin-bottom: 80px;
+}
+
+
+h3{
+    font-family: Acumin Variable Concept;
+font-size: 36px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+color: rgba(255, 255, 255, 1);
+text-decoration: underline;
+
+}
+
+ input[type="number"] {
+    height: 42px;
+    width: 285px;
+  margin-left: 38px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background: rgba(255, 255, 255);
+  border-radius: 20px;
+  border: 0;
+  }
+  
+   input[type="number"]::placeholder {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #999999;
+    text-align: left; 
+    padding: 20px;   
+  }
+
+  input[type="number"]:focus {
+    box-shadow: 0 0 4px 0 rgba(48, 46, 46, 0.8);;
+    outline: none;
+  }
+
+  .notallowed {
+    pointer-events: none;
+    cursor: not-allowed !important;
+    opacity: 0.5;
+  }
+
+  .btn5 {
+    font-family: 'Acumin Variable Concept';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+   color: #FFFFFF;
+    background: #132452; 
+    border: 0px ;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+}
+
+.btn5:hover{
+    color: #132452;
+    background: #FFFFFF;
+    border: 3px solid #132452;
+    border-radius: 10px;
+  }
+
+  h4{
+    font-family: Acumin Variable Concept;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+color: rgba(204, 5, 28, 1);
+
+  }
+
+  .checkbox1{
+    
+    left: 30px;
+    font-size: 1.3em;
+    line-height: 0.8;
+    color: rgba(19, 36, 82, 1);
+    transition: all .2s;
+    font-family: Acumin Variable Concept;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+
+  label{
+    padding-left: 15px;
+  }
+
+  .checkbox1 input{
+
+    appearance: none;
+    border: 10px solid rgb(154, 164, 194);
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #41B883;
+    cursor: pointer;
+
+   
+  }
+
+  .checkbox1 :checked {
+   
+    opacity: 1;
+    transform: scale(2);
+    border: 10px solid rgba(19, 36, 82, 1);
+    
+  }
+
+  @media (max-width:450px) {
+     
+  .btn7  {
+
+    right: -900px;
+}
+  }
+
+  /* ------------------------- */
+
+  
+h5{
+  text-align: center;
+  margin-left: -80px;
+}
+
+.card{
+  background: none;
+  border: 0px solid transparent; 
+}
+
+.btn8  {
+  overflow: hidden;   
+  border: 0px solid transparent; 
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: relative;
+
+}
+
+.row{
+  align-items: center;
+}
+
+.quantity_p_m{
+  align-items: center;
+  border: 3px solid #132452; 
+  border-radius: 20px;
+  height: 45px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30px;
+ 
+}
+
+input[type="text"],
+button[type="submit"]:focus{
+box-shadow: 0 0 0px 0 rgba(48, 46, 46, 0.8);;
+outline: none;
+}
+
+input[type="text"]{
+width: 60px;
+background: none;
+border: 0px solid transparent; 
+margin-left: 30px;
+margin-right: -20px;
+color: #132452;
+
+}
+
+.btn6  {
+  overflow: hidden;   
+  border: 0px solid transparent; 
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+

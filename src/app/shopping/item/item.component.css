@@ -1,0 +1,71 @@
+
+h5{
+    text-align: center;
+    margin-left: -80px;
+}
+
+.card{
+    background: none;
+    border: 0px solid transparent; 
+}
+
+.btn8  {
+    overflow: hidden;   
+    border: 0px solid transparent; 
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: relative;
+
+}
+
+.row{
+    align-items: center;
+}
+
+.quantity_p_m{
+    align-items: center;
+    border: 3px solid #132452; 
+    border-radius: 20px;
+    height: 45px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+   
+}
+
+input[type="text"],
+button[type="submit"]:focus{
+  box-shadow: 0 0 0px 0 rgba(48, 46, 46, 0.8);;
+  outline: none;
+}
+
+input[type="text"]{
+width: 60px;
+background: none;
+border: 0px solid transparent; 
+margin-left: 30px;
+margin-right: -20px;
+color: #132452;
+
+}
+
+.notallowed {
+    pointer-events: none;
+    cursor: not-allowed !important;
+    opacity: 0.5;
+  }
+
+
+.btn6  {
+    overflow: hidden;   
+    border: 0px solid transparent; 
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+

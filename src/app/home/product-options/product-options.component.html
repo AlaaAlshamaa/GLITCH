@@ -1,0 +1,64 @@
+
+<div class="">
+<div class="d-flex justify-content-around align-items-center">
+  <h3 class="fw-normal">G L I T C H</h3>
+  <div class= "d-flex justify-content-center align-items-center ">
+    <a href="#" >Account</a> 
+    <a href="#" (click)="onSelect('shopping')">  | &nbsp; Cart</a>
+    <img  class=" col-lg-8"  src="../../../assets/icons/22.svg" class="myicon">
+  </div>
+  </div>
+</div>
+
+
+<div class="container " align="center">
+    <div class=" box">
+<div style="overflow:auto">
+    <div class="search " align="center">
+      <form>
+        <input type="search" placeholder="What would you like to have in your design?.." align="center" (keyup)="onKey($event)">
+        <button class="btn0" type="submit">Search</button>
+      </form>
+       <p> </p>
+      </div>
+
+    <div  id="myDIV" class = "FB_type">
+    <div class=" FB ">
+      <a href="#">Front</a>
+      |
+      <a href="#">Back</a>
+    </div>
+    <button *ngFor="let item of typelist" class="btn" (click)=" onchangetype(item.tid)" [ngClass]="{active:item.tisselected}" [ngClass]="{notallowed:item.tid === '1'}" > {{item.tname}}</button>
+  </div>
+
+    <div class="main">
+        <div class="container">
+              <img src="../../../assets/images/men white front.png" class="Shirt">
+              <p style=" color: #CC051C;">Clear</p>
+             
+            </div>
+         </div>
+  
+    <div class="right">
+      <div class= "row">
+      <button class="btn6 notallowed"  type="submit"
+       style= "background:transparent url(../../../assets/icons/2.svg)
+         no-repeat center" 
+           >
+          </button>
+      <a class="notallowed">Edit</a>
+    </div>
+    </div>
+        <button class="btn3 notallowed"   >Color  <br> palette</button>
+        <p>Size :</p>
+      <div >
+        <button *ngFor="let item of sizelist" class="btn4" (click)=" onchangesize(item.sid)" [ngClass]="{active:item.sisselected}"> {{item.sname}}</button>
+      </div>
+        <button class="btn5 notallowed" type="submit"    > Customize Shirt </button>
+        <button class="btn5" type="submit" (click)="onSelect('edit'); onsubmitgenerate() " [ngClass]="{notallowed: !inputtext || !finalsizelist?.length || !finaltypelist?.length } "> Generate Design </button>
+        <button class="btn2"  type="submit" (click)="onSelect('place'); onsubmitadd()" [ngClass]="{notallowed: !finalsizelist?.length || !finaltypelist?.length}">Add to cart</button>
+  </div>
+</div>  
+</div>
+
+
