@@ -105,7 +105,7 @@ getproductbyid2(xid: string)  {
   });
   console.log("new q : "+ value);
   
-    const url = 'http://138.68.137.41/api/cart_product/quantity/${id}';
+    const url = `http://138.68.137.41/api/cart_product/quantity/${id}`;
     const updateData = {};
     updateData[attribute] = value;
     return this.http.patch(url, updateData, {headers:header});
@@ -119,7 +119,7 @@ getproductbyid2(xid: string)  {
       });
   console.log("delete cartItemid: "+ cartitemId);
 
-    const url = 'http://138.68.137.41/api/cart_product/${id}';
+    const url = `http://138.68.137.41/api/cart_product/${cartitemId}`;
         return this.http.delete(url ,  {headers:header});
       }
     }
