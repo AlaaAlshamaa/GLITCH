@@ -87,7 +87,7 @@
 .card {
     --bs-card-bg: }
 
-button[ type="submit" ]{
+button[type="submit"] {
     overflow: hidden;   
     padding-top: 150px;
     margin: 0;
